@@ -29,7 +29,7 @@ So, how should we turn the fuzzy notion of an "efficient" algoritm into somethin
 > - For sufficiently large n, the function T(n) is bounded above by a constant multiple of f(n)
    - Demo 
 ### Asymptotic Lower Bound (The Best running time)
-> T(n) = omega(f (n))) if there exist constants c >0 and n0 ≥ 0 so that for all n ≥ n0, we have T(n) ≥ c · f (n). 
+> T(n) = omega(f (n))) if there exist constants c >0 and n0 ≥ 0 so that for all n ≥ n0, we have T(n) ≥ c · f (n). 
 > - c must be fixed,independent of n
 > - For arbitrarily large input sizes n, the function T(n) is at least a constant multiple of some specific function f (n).
 ### Asymptotic Tight Bound 
