@@ -1,6 +1,6 @@
 # Computation Efficiency
 The major focus of week 1 is the part of design principle in algorithm design 
- - **(Asymptotic growth notional)**
+ - **(Asymptotic growth notation)**
  - Time complexity (e.g. linear vs quadratic)
  - Reading and writing pseudocode
 
