@@ -33,9 +33,9 @@ So, how should we turn the fuzzy notion of an "efficient" algoritm into somethin
 > - c must be fixed,independent of n
 > - For arbitrarily large input sizes n, the function T(n) is at least a constant multiple of some specific function f (n).
 ### Asymptotic Tight Bound 
-> We say that T(n) = theta(f(n)) if T(n) = O(f(n)) and T(n) = theta(f(n))
-> - If we can show that a running time T(n) is both O(f (n)) and also (f (n)), then T(n) grows exactly like f (n) to within a constant factor.
-* Sometimes one can also obtain an asymptotically tight bound directly by computing a limit as n goes to infinity. Essentially, if the ratio of functions f (n) and g(n) converges to a positive constant as n goes to infinity, then f (n) = theta(g(n)).
+> We say that T(n) = theta(f(n)) if T(n) = O(f(n)) and T(n) = theta(f(n))
+> - If we can show that a running time T(n) is both O(f (n)) and also omega(f (n)), then T(n) grows exactly like f (n) to within a constant factor.
+* Sometimes one can also obtain an asymptotically tight bound directly by computing a limit as n goes to infinity. Essentially, if the ratio of functions f (n) and g(n) converges to a positive constant as n goes to infinity, then f (n) = theta(g(n)).
     - demo 
 ## Growth Property
 Transitivity:
