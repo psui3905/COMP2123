@@ -33,7 +33,7 @@ So, how should we turn the fuzzy notion of an "efficient" algoritm into somethin
 > - c must be fixed,independent of n
 > - For arbitrarily large input sizes n, the function T(n) is at least a constant multiple of some specific function f (n).
 ### Asymptotic Tight Bound 
-> We say that T(n) = theta(f(n)) if T(n) = O(f(n)) and T(n) = theta(f(n))
+> We say that T(n) = theta(f(n)) if T(n) = O(f(n)) and T(n) = omega(f(n))
 > - If we can show that a running time T(n) is both O(f (n)) and also omega(f (n)), then T(n) grows exactly like f (n) to within a constant factor.
 * Sometimes one can also obtain an asymptotically tight bound directly by computing a limit as n goes to infinity. Essentially, if the ratio of functions f (n) and g(n) converges to a positive constant as n goes to infinity, then f (n) = theta(g(n)).
     - demo 
@@ -46,3 +46,23 @@ Transitivity:
 Sums of functions:
 - If f = O(g) and g = O(h) then f+g = O(h) 
 - If f = omega(h) then f+g = omega(h)
+
+## Pseudocode Formating
+There's no fixed format for pseudocode , it is a guideline only.
+
+Each line of pseudocode should be clear enough that someone who has not taken the course (but with programming experience) would be able to implement the algorithm as you describe it.
+
+```pseudocode
+Example:
+
+Algorithm 2 subsequence_WithMaxSum_1(A)
+1: n <- Size of A
+2: answer <- (0, 0)
+3: for i = 0,...., n - 1 do
+4:    for j = i,...., n - 1 do
+5:       if evaluate(A,i,j) > evaluate(A,answer[0],answer[1]) then
+6:         answer <- (i, j)
+7: return answer
+
+```
+### Lecture Question
