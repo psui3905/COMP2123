@@ -50,7 +50,7 @@ Sums of functions:
 ## Pseudocode Formating
 There's no fixed format for pseudocode , it is a guideline only.
 
-Each line of pseudocode should be clear enough that someone who has not taken the course (but with programming experience) would be able to implement the algorithm as you describe it.
+Each line of pseudocode should be clear enough that someone who has not taken the course (but with programming experience) would be able to implement the algorithm as you describe it. -- Paul
 
 ```pseudocode
 Example:
