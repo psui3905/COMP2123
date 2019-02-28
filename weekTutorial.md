@@ -65,4 +65,49 @@ Algorithm 2 subsequence_WithMaxSum_1(A)
 7: return answer
 
 ```
-### Lecture Question
+## Lecture Question
+
+Motivation:
+- we have information about the daily fluctuation of a stock price
+- we want to evaluate our best possible single-trade outcome
+
+Input:
+- an array with n integer values A[0],A[1], ...,A[n − 1]
+
+Task:
+- find indices 0 <= i <= j < n maximizing
+A[i] + A[i + 1] + · · · + A[j]
+
+```python
+def naive(A):
+  def evaluate(a,b)
+     return A[a] + ... + A[b]
+
+  n <- size of A
+  answer <- (0,0)
+  for i = 0,..., n-1 do
+    for j = i,..., n-1 do
+      if evaluate(i,j) > evaluate(answer[0],answer[1])
+         answer <- (i,j)
+  return answer
+```
+#### Pre-processing
+
+```python
+def preprocessing(A):
+  def evaluate(a,b)
+      return B[a] - B[b+1]
+
+  n <- size of A
+  B <- array of size n+1
+  for i = 0,..., n-1 do
+     B[i] <- A[i] + ... A[n-1]  # (O(N))
+  B[n] <- 0
+  answer <- (0,0)
+  
+  for i = 0,..., n-1 do
+    for j = i,..., n-1 do
+      if evaluate(i,j) > evaluate(answer[0],answer[1])
+         answer <- (i,j)
+  return answer
+```
