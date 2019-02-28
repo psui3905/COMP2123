@@ -78,6 +78,7 @@ Task:
 - find indices 0 <= i <= j < n maximizing
 A[i] + A[i + 1] + · · · + A[j]
 
+#### Naive approach :pear:
 ```python
 def naive(A):
   def evaluate(a,b)
@@ -91,7 +92,7 @@ def naive(A):
          answer <- (i,j)
   return answer
 ```
-#### Pre-processing
+#### Pre-processing :squirrel: :mortar_board:
 
 ```python
 def preprocessing(A):
