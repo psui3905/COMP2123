@@ -27,6 +27,7 @@ So, how should we turn the fuzzy notion of an "efficient" algoritm into somethin
 ### Asymptotic Upper Bound (The Worst running time) 
 > T(n) = O(f (n)) if there exist constants c > 0 and n0 ≥ 0 so that for all n ≥ n0, we have T(n) ≤ c · f (n). 
 > - For sufficiently large n, the function T(n) is bounded above by a constant multiple of f(n)
+   - **_Note that this definition requires a constant c to exist that works for all n_**
    - Demo 
 ### Asymptotic Lower Bound (The Best running time)
 > T(n) = omega(f (n))) if there exist constants c >0 and n0 ≥ 0 so that for all n ≥ n0, we have T(n) ≥ c · f (n). 
@@ -112,3 +113,8 @@ def preprocessing(A):
          answer = (i,j)
   return answer
 ```
+# Assignment 1
+ On canvas --> Assignment
+ * The important part of the assignment is the analyzation/justification of run time 
+ * we don't not interested in source code you write
+ * Suggest to try Latex, but word or other text editor is fine
