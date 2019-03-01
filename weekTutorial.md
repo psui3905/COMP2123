@@ -84,12 +84,12 @@ def naive(A):
   def evaluate(a,b)
      return A[a] + ... + A[b]
 
-  n <- size of A
-  answer <- (0,0)
+  n = size of A
+  answer = (0,0)
   for i = 0,..., n-1 do
     for j = i,..., n-1 do
       if evaluate(i,j) > evaluate(answer[0],answer[1])
-         answer <- (i,j)
+         answer = (i,j)
   return answer
 ```
 #### Pre-processing :squirrel: :mortar_board:
@@ -99,16 +99,16 @@ def preprocessing(A):
   def evaluate(a,b)
       return B[a] - B[b+1]
 
-  n <- size of A
-  B <- array of size n+1
+  n = size of A
+  B = array of size n+1
   for i = 0,..., n-1 do
-     B[i] <- A[i] + ... A[n-1]  # (O(N))
-  B[n] <- 0
-  answer <- (0,0)
+     B[i] = A[i] + ... A[n-1]  # (O(N))
+  B[n] = 0
+  answer = (0,0)
   
   for i = 0,..., n-1 do
     for j = i,..., n-1 do
       if evaluate(i,j) > evaluate(answer[0],answer[1])
-         answer <- (i,j)
+         answer = (i,j)
   return answer
 ```
