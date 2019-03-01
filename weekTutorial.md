@@ -116,5 +116,5 @@ def preprocessing(A):
 # Assignment 1
  On canvas --> Assignment
  * The important part of the assignment is the analyzation/justification of run time 
- * we don't not interested in source code you write
+ * we are not interested in the source code you write
  * Suggest to try Latex, but word or other text editor is fine
