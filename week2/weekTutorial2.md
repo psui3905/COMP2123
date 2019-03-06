@@ -6,7 +6,6 @@
     - Positional List
         - Single Linked List
         - Double Linked List
-    - Iterator
 * Stack & Queue
 
 ### Pseduocode
@@ -54,3 +53,34 @@ Each line of pseudocode should be clear enough that someone who has not taken th
 | Double Linked List       | O(1)     | O(1)    | O(1)       | O(1)      | O(1)               | O(1)              | O(1)       |
 
 Notes: p -- the input node, e -- input element, i -- index
+
+
+### Queue & Double-ended queue
+
+* Queue implementation based on Array
+    - Enqueue
+    ```Python
+        def enqueue(element)
+            if size() = N - 1 then
+                return "queue full"
+            else
+                last <- (first + size) mod N
+                Q[last] <- element
+                size <- size +1
+    ```
+
+    - Dequeue
+    ```Python
+        def dequeue()
+            if isEmpty() then
+                return "queue empty"
+            else
+                element <- Q[first]
+                first <- (first +1) mod N
+                size <- size - 1
+                return element
+
+    ```
+* Double-ended Queue
+    - A linear structure that allows insertions and deletions at both ends
+    - More detail see slides Page 33
