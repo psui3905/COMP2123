@@ -54,11 +54,41 @@ Each line of pseudocode should be clear enough that someone who has not taken th
 
 Notes: p -- the input node, e -- input element, i -- index
 
+### Stack implementation based on Array
+
+* A simple way of implementing the Stack ADT uses an array
+* We add elements from left to right
+* A variable keeps track of the index of the top element
+
+```Python
+def size()
+    return t + 1
+
+def pop()
+    if isEmpty() then
+        return null
+    else
+        t <- t - 1
+        return S[t + 1]
+
+def push(element)
+    if t = S.length - 1 then
+        signal stack overflow error
+    else
+        t <- t + 1
+        S[t] <- element
+```
+* Performance
+    - Let n be the number of elements in the stack
+    - The space used is O(n)
+    - Each operation runs in time O(1)
 
 ### Queue & Double-ended queue
 
 * Queue implementation based on Array
     - Enqueue
+        - enqueue(e): inserts an element, e, at the end of the queue
+
     ```Python
         def enqueue(element)
             if size() = N - 1 then
@@ -70,6 +100,7 @@ Notes: p -- the input node, e -- input element, i -- index
     ```
 
     - Dequeue
+        - dequeue(): removes and returns element at the front of the queue
     ```Python
         def dequeue()
             if isEmpty() then
@@ -79,7 +110,6 @@ Notes: p -- the input node, e -- input element, i -- index
                 first <- (first +1) mod N
                 size <- size - 1
                 return element
-
     ```
 * Double-ended Queue
     - A linear structure that allows insertions and deletions at both ends
