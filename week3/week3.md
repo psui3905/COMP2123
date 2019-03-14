@@ -22,3 +22,17 @@
 -  Edge: pair of nodes (u, v) such that one is the parent of the other
 
 - Path: sequence of nodes such that 2 consecutive nodes in the sequence have an edge (e.g., <E, B, F, J>).
+
+### Tree Traversal Algortithm
+
+- Pre-order traversal
+![tree terminology](https://github.com/psui3905/COMP2123/blob/master/week3/Preorder_Traversal.png)
+
+- Post-order traversal
+![tree terminology](https://github.com/psui3905/COMP2123/blob/master/week3/Postorder_Traversal.png)
+
+- In-order traversal
+![tree terminology](https://github.com/psui3905/COMP2123/blob/master/week3/Inorder_Traversal.png)
+
+
+![tree terminology](https://github.com/psui3905/COMP2123/blob/master/week3/traversal.png)
