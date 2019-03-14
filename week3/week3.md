@@ -17,6 +17,8 @@
 
 ![tree terminology](https://github.com/psui3905/COMP2123/blob/master/week3/tree_t3.png)
 
+- Height of a tree: **Maximum depth** of the tree
+
 - Subtree: tree made up of some node and its descendants, but the subtree is a part of C
 
 -  Edge: pair of nodes (u, v) such that one is the parent of the other
@@ -36,3 +38,12 @@
 
 
 ![tree terminology](https://github.com/psui3905/COMP2123/blob/master/week3/traversal.png)
+
+#### Binary Search Tree
+* Binary Search Tree is a node-based binary tree data structure which has the following properties:
+
+    > The left subtree of a node contains only nodes with keys lesser than the node’s key.
+
+    > The right subtree of a node contains only nodes with keys greater than the node’s key.
+
+    > The left and right subtree each must also be a binary search tree.
