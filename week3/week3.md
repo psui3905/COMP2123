@@ -6,4 +6,4 @@
 
 ### Tree Terminology
 
-![Drag Racing](tree_t1.jpg)
+![tree terminology](https://github.com/psui3905/COMP2123/edit/master/week3/tree_t1.png)
