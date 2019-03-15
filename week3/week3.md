@@ -47,3 +47,21 @@
     > The right subtree of a node contains only nodes with keys greater than the node’s key.
 
     > The left and right subtree each must also be a binary search tree.
+    
+```python
+
+    
+    
+def visit_level(T, k):
+
+    def in_order(node, k, current_level):
+        if k = current_level and node not equal None:
+            visit node
+            return
+        in_order(node.left, k, current_level + 1);
+        in_order(node.right, k, current_level + 1);
+    
+    current_level <-  0
+    node <- T.root
+    inorder(node, k, current_level)
+```
