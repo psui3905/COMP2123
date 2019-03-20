@@ -21,7 +21,20 @@ Map is an abstract data type where a value is "mapped" to the collection.
 
     ```java
     Map<String, Integer> transcript = new Treemap<String, Integer>();
+
+    transcript.put("Jimmy", 80);
+    transcript.put("Ken", 100);
+    ```
+    Recommand ADT to try play around with: HashMap<k,v>, extra methods of SortedMap ADT
+
+    ```java
+    Map<String, Integer> transcript = new HashMap<String, Integer>();
     ```
 
 
+### Binary Search Trees (BST)
+
+A BST is a Binary tree storing keys (or key-value pairs) satisfying BST property.
+
+![tree terminology](https://github.com/psui3905/COMP2123/blob/master/week4/BST.gif)
 
