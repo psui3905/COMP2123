@@ -41,3 +41,20 @@ A BST is a Binary tree storing keys (or key-value pairs) satisfying BST property
 > For any node V in the tree and any node u in the left subtree of v and any node w in the right sybtree of v. **__key(u) < key(v) < key(w)__**
 
 ![tree terminology](https://github.com/psui3905/COMP2123/blob/master/week4/BST2.png)
+
+### Improving balance: Trinode resructing 
+
+Most operations on BSTs that takes O(height) time to run. 
+- O(n) for unbalanced BST
+- O(logn) for balanced BST
+
+- Balanced Tree: a tree is balanced if 
+    - The left and right subtrees' heights differ by at most one, AND
+    - The left subtree is balanced, AND
+    - The right subtree is balanced
+
+![tree terminology](https://github.com/psui3905/COMP2123/blob/master/week4/balance1.png)
+
+![tree terminology](https://github.com/psui3905/COMP2123/blob/master/week4/balance2.png)
+
+![tree terminology](https://github.com/psui3905/COMP2123/blob/master/week4/performance.png)
