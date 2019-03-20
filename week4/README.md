@@ -38,3 +38,6 @@ A BST is a Binary tree storing keys (or key-value pairs) satisfying BST property
 
 ![tree terminology](https://github.com/psui3905/COMP2123/blob/master/week4/BST.gif)
 
+> For any node V in the tree and any node u in the left subtree of v and any node w in the right sybtree of v. **__key(u) < key(v) < key(w)__**
+
+![tree terminology](https://github.com/psui3905/COMP2123/blob/master/week4/BST2.png)
