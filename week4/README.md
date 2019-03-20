@@ -58,3 +58,6 @@ Most operations on BSTs that takes O(height) time to run.
 ![tree terminology](https://github.com/psui3905/COMP2123/blob/master/week4/balance2.png)
 
 ![tree terminology](https://github.com/psui3905/COMP2123/blob/master/week4/performance.png)
+
+### AVL Tree
+see slides Page 59 - Page 70
