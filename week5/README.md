@@ -43,11 +43,39 @@
                     minimum_unsorted_element <- A[j]
             swap A[j] with A[unsorted_element_index]
     ```
+    > red column -> minimum_unsorted_element
+    > green column -> A[j]
+    > yellow column -> sorted element (i)
+
     ![Sequenced-based queue](https://github.com/psui3905/COMP2123/blob/master/week5/selection1.png)
     ![Sequenced-based queue](https://github.com/psui3905/COMP2123/blob/master/week5/selection2.png)
     ![Sequenced-based queue](https://github.com/psui3905/COMP2123/blob/master/week5/selection3.png)
     ![Sequenced-based queue](https://github.com/psui3905/COMP2123/blob/master/week5/selection4.png)
     ![Sequenced-based queue](https://github.com/psui3905/COMP2123/blob/master/week5/selection5.png)
 
+    - visual sorting demonstration https://visualgo.net/en/sorting
+
     - Inserting elements with n insert operations takes O(n) times
     - removing elements with n remove_min ops takes O(n^2)
+
+
+
+- __**INSERTION**__ Sort
+
+
+    ```python
+     def insertion_sort(A):
+         n <- size(A)
+         mark A[0] as sorted
+
+        for i in range(1, n) do
+            x< - A[i] # 'extract' the element A[i]
+            j <- i
+            while j > 1 and x < A[j-1]
+                A[j] <- A[j-1]
+                j <-  j - 1
+            insert x in position j
+
+    ```
+    - Inserting elements with n insert operations takes O(n^2) times
+    - removing elements with n remove_min ops takes O(n)
