@@ -9,5 +9,7 @@
     - Downheap
     - Heap Sort
 
-![tree terminology](https://github.com/psui3905/COMP2123/blob/master/week5/queue.png)
+![Running time](https://github.com/psui3905/COMP2123/blob/master/week5/queue.png)
 ### Sequenced-based Priority Queues
+
+![Sequenced-based queue](https://github.com/psui3905/COMP2123/blob/master/week5/queue2.png)
