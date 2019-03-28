@@ -41,5 +41,13 @@
             for j in [i, n) do
                 if A[j] < minimum_unsorted_element do
                     minimum_unsorted_element <- A[j]
-                    swap A[j] with A[unsorted_element_index]
+            swap A[j] with A[unsorted_element_index]
     ```
+    ![Sequenced-based queue](https://github.com/psui3905/COMP2123/blob/master/week5/selection1.png)
+    ![Sequenced-based queue](https://github.com/psui3905/COMP2123/blob/master/week5/selection2.png)
+    ![Sequenced-based queue](https://github.com/psui3905/COMP2123/blob/master/week5/selection3.png)
+    ![Sequenced-based queue](https://github.com/psui3905/COMP2123/blob/master/week5/selection4.png)
+    ![Sequenced-based queue](https://github.com/psui3905/COMP2123/blob/master/week5/selection5.png)
+
+    - Inserting elements with n insert operations takes O(n) times
+    - removing elements with n remove_min ops takes O(n^2)
