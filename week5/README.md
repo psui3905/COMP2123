@@ -19,10 +19,11 @@
     def priority_queue_sorting(A):
         pq <- new PriorityQueue
         n <- size(A)
-        
+
         for i in [0, n) do
             pq.insert(A[i])
 
         for i in [0, n) do
             A[i] = pq.remove_min()
     ```
+    Complexity analysis: either insert() and remove_min() operation done n times. Hence either Sequenced-based will implementation take $$O(n^2)$$
