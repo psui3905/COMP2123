@@ -26,4 +26,20 @@
         for i in [0, n) do
             A[i] = pq.remove_min()
     ```
-    Complexity analysis: either insert() and remove_min() operation done n times. Hence either Sequenced-based will implementation take $$O(n^2)$$
+    Complexity analysis: either insert() and remove_min() operation done n times. Hence either Sequenced-based will implementation take O(n^2).
+
+
+- __**SELECTION**__ Sort
+    ```python
+    def slection_sort(A):
+        n <- size(A)
+
+        for i in range(0, n) do
+            unsorted_element_index <- i
+            minimum_unsorted_element <- A[unsorted_element_index]
+
+            for j in [i, n) do
+                if A[j] < minimum_unsorted_element do
+                    minimum_unsorted_element <- A[j]
+                    swap A[j] with A[unsorted_element_index]
+    ```
