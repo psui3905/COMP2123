@@ -13,3 +13,16 @@
 ### Sequenced-based Priority Queues
 
 ![Sequenced-based queue](https://github.com/psui3905/COMP2123/blob/master/week5/queue2.png)
+
+- Priority queue sorting
+    ``` python
+    def priority_queue_sorting(A):
+        pq <- new PriorityQueue
+        n <- size(A)
+        
+        for i in [0, n) do
+            pq.insert(A[i])
+
+        for i in [0, n) do
+            A[i] = pq.remove_min()
+    ```
