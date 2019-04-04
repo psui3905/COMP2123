@@ -7,6 +7,7 @@
     - Cuckoo Hashing
 - Eviction cycles detection
 
+![Running time](https://github.com/psui3905/COMP2123/blob/master/week6/cheet.png)
 
 ### Hash Functions & Hash Tables
 **Hash Function:** mapping keys of a given type to integer in a fixed interval [0, N-1]
